@@ -1,0 +1,242 @@
+:root {
+    --main-text-color:#18191F;
+    --primary-mainbutton-bgcolor: #8C30F5;
+    --primary-mainbutton-bgcolor-hover: #6b24bd;
+    --primary-mainbutton-bgcolor-focus: #411772;
+    --primary-button-color: #ffffff;
+
+    --base-font: normal 14px "Manrop-Regular", sans-serif; 
+    --heading-font: normal 40px "Manrope-ExtraBold", sans-serif;
+    
+    --base-gap-s: 8px;
+    --base-gap-m: 16px;
+    --base-gap-l: 32px;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+body {
+     
+    font: var(--base-font);
+    color: var(--main-text-color);
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:#18191F;
+    
+}
+.container {
+   
+   margin: 0 auto;
+   max-width: 1102px;
+   /*background-color: aquamarine;*/
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 197px;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    justify-content: space-between;
+    
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.header-left-a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header-logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 9.2px;
+}
+.header-title {
+    width: 68px;
+    height: 18.5px;
+    margin-right: 32px;
+}
+.header-vector {
+    width: 10.5px;
+    height: 6px;
+    margin-right: 32px;
+}
+.header-play, .header-app {
+    width: 135px;
+    height: 40px;
+}
+.header-play {
+    margin-right: 12px;
+}
+h3 {
+    margin-right: 32px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+.about {
+    width: 42px;
+    
+}
+.products {
+    width: 63px;
+}
+.pricing {
+    width: 48px;
+}
+.blog {
+    width: 31px;
+}
+.jobs {
+    width: 32px;
+}
+.more {
+    width: 35px;
+    margin-right: 7.75px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description-text {
+    width: 540px;
+    height: 370px;
+    margin-right: 92px;
+    /*background-color: bisque;*/
+    margin-top: 24px;
+}
+.description-text__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 16px;
+}
+.description-text__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.description-img {
+    width: 524px;
+    height: 400px;
+    /*background-color: brown;*/
+}
+button {
+    width: 196px;
+    height: 62px;
+    background-color: #8C30F5;
+    color:white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+.description-img {
+    position: relative;
+}
+.img-mobile {
+    position: absolute;
+    z-index: 1;
+}
+.img-top {
+    width: 280px;
+    height: 72px;
+    position: absolute;
+    top: -25px;
+    left: -104px;
+    z-index: 10;
+}
+.img-bottom {
+    width: 280px;
+    height: 72px;
+    position: absolute;
+    right: 75px;
+    bottom: 63px;
+    z-index: 10;
+}
+/*header*/
+.but:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: #6020aa;
+}
+.but:focus {
+    background-color: #381066;
+}
+.more:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.more:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.jobs:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.blog:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.pricing:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.products:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+.about:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: gainsboro;
+}
+/*фокус*/
+a:focus h3 {
+    font-weight: 800;
+    color: #000;
+    font-size: 13px;
+    background-color: gray;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

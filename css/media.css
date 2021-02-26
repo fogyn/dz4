@@ -1,0 +1,152 @@
+@media screen and (max-width: 1118px) {
+    .header {
+        flex-direction: column;
+        
+    }
+    .description {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+         }
+         
+}
+@media screen and (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 635px) {
+    h3 {
+        margin-right: 5px;
+     }
+     .header-title {
+        margin-right: 0;
+    }
+     .header-vector {
+         margin-right: 0;
+     }
+    .header-left {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .description-text {
+        width: 400px;
+        height: 370px;
+        margin: 0px;
+        justify-content: center;
+        
+        /*background-color: bisque;*/
+        
+    }
+    .description-text__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 80px;
+        margin-bottom: 16px;
+    }
+    .description-text__subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+    .description-img {
+        width: 400px;
+        height: 400px;
+    }
+    .img-top {
+        top: -25px;
+        left: 0px;
+        
+    }
+    .img-bottom {
+        right: 120px;
+        bottom: 63px;
+        
+    }
+}
+@media screen and (max-width: 430px) {
+    .header {
+         margin-bottom: 50px;
+         justify-content: center;
+         
+    }
+    h3 {
+        margin-right: 5px;
+     }
+    .header-left {
+        flex-direction: column;
+        justify-content: center;
+        
+      
+    }
+        
+    .description-text {
+        width: 300px;
+        height: 250px;
+        margin: 0;
+        justify-content: center;
+        
+        /*background-color: bisque;*/
+        
+    }
+    .description-text__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 16px;
+    }
+    .description-text__subtitle {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    .description-img {
+        width: 300px;
+        height: 300px;
+    }
+    .img-mobile {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: 1;
+    }
+    .img-top {
+        top: -15px;
+        left: -35px;
+        
+    }
+    .img-top img {
+        width: 260px;
+        height: 113px;
+    }
+    .img-bottom {
+        right: -50px;
+        bottom: 15px;
+        
+    }
+    .img-bottom img {
+        width: 260px;
+        height: 113px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
